@@ -72,7 +72,7 @@ const Projects = [
     description:
       "This node command line interface (CLI) allows users to access a sql database to edit and bring up lists of employee and their information based on selected criteria, similar to a content management system (CMS). This is done through inquirer for the CMS interface with a connection through MySQL to perform CRUD functionalities (create, read, update, and delete)",
     tech: [
-      { techName: "mysql", colour: "magenta" },
+      { techName: "MySQL", colour: "magenta" },
       { techName: "JS", colour: "gold" },
       { techName: "Inquirer", colour: "geekblue" },
       { techName: "NodeJS", colour: "purple" },

@@ -15,7 +15,7 @@ const App = () => {
   return (
     <Layout
       style={{
-        backgroundColor: "gray",
+        backgroundColor: "rgb(245,245,245)",
         color: "gray",
       }}
     >
