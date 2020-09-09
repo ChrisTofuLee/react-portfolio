@@ -7,7 +7,7 @@ import About from "./components/About"
 const Routes = () => {
   return (
     <Switch>
-      <Route path="/" exact>
+      <Route path="/home" exact>
           <Home />
       </Route>
       <Route path="/portfolio" exact>

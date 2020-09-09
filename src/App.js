@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import {Layout, Menu} from "antd";
+import { Layout, Menu } from "antd";
 
 import "./App.css";
 import Routes from "./Routes";
@@ -20,13 +20,12 @@ const App = () => {
       }}
     >
       <BrowserRouter>
-      <NavBar />
-{/* <Portfolio /> */}
-    
-    <Routes />
-    </BrowserRouter>
-    </Layout>    
-  )
+        <NavBar />
+
+        <Routes />
+      </BrowserRouter>
+    </Layout>
+  );
 };
 
 export default App;
