@@ -14,12 +14,7 @@ const { SubMenu } = Menu;
 const App = () => {
   return (
     <HashRouter>
-      <Layout
-        style={{
-          backgroundColor: "rgb(245,245,245)",
-          color: "gray",
-        }}
-      >
+      <Layout>
         <div>
           <NavBar />
           <Content>
