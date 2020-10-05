@@ -13,6 +13,7 @@ const { SubMenu } = Menu;
 
 const App = () => {
   return (
+    <BrowserRouter>
     <Layout
       style={{
         backgroundColor: "rgb(245,245,245)",
@@ -20,12 +21,12 @@ const App = () => {
       }}
     >
       
-      <BrowserRouter>
+      
         <NavBar />
-        <Home />
         <Routes />
-      </BrowserRouter>
+      
     </Layout>
+    </BrowserRouter>
   );
 };
 
