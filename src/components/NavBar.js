@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Layout, Menu } from "antd";
 
 
@@ -15,16 +15,16 @@ const NavBar = () => {
       <span></span>
         </Menu.Item>
         <Menu.Item key="1" style={{ color: "white", fontSize: "2.5em" }}>
-        <Link to="/"style={{ color: "white" }}>Christopher Lee</Link>
+        <NavLink to="/"style={{ color: "white" }}>Christopher Lee</NavLink>
         </Menu.Item>
         {/* <Menu.Item key="4" style={{ float: "right" }}>
           <Link to="/contact">Contact</Link>
         </Menu.Item> */}
         <Menu.Item key="2" style={{ float: "right" }}>
-        <Link to="/portfolio">Portfolio</Link>
+        <NavLink to="/portfolio">Portfolio</NavLink>
         </Menu.Item>
         <Menu.Item key="3" style={{ float: "right" }}>
-        <Link to="/about">About Me</Link>
+        <NavLink to="/about">About Me</NavLink>
         </Menu.Item>
       </Menu>
     </Header>

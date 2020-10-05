@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Layout, Menu } from "antd";
 
 import "./App.css";
@@ -13,21 +13,21 @@ const { SubMenu } = Menu;
 
 const App = () => {
   return (
-    <BrowserRouter>
-    <Layout
-      style={{
-        backgroundColor: "rgb(245,245,245)",
-        color: "gray",
-      }}
-    >
-      
-      
-        <NavBar />
-        <Content>
-        <Routes />
-        </Content>
-    </Layout>
-    </BrowserRouter>
+    <HashRouter>
+      <Layout
+        style={{
+          backgroundColor: "rgb(245,245,245)",
+          color: "gray",
+        }}
+      >
+        <div>
+          <NavBar />
+          <Content>
+            <Routes />
+          </Content>
+        </div>
+      </Layout>
+    </HashRouter>
   );
 };
 
