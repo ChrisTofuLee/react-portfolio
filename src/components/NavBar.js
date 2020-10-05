@@ -15,7 +15,7 @@ const NavBar = () => {
       <span></span>
         </Menu.Item>
         <Menu.Item key="1" style={{ color: "white", fontSize: "2.5em" }}>
-        <Link to="/home"style={{ color: "white" }}>Christopher Lee</Link>
+        <Link to="/"style={{ color: "white" }}>Christopher Lee</Link>
         </Menu.Item>
         {/* <Menu.Item key="4" style={{ float: "right" }}>
           <Link to="/contact">Contact</Link>
