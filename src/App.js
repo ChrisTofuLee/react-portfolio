@@ -19,6 +19,7 @@ const App = () => {
         color: "gray",
       }}
     >
+      <Home />
       <BrowserRouter>
         <NavBar />
 
