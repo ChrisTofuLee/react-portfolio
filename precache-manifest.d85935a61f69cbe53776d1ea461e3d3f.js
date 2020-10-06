@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cb8ed820faad7493269754e8b21e1d3",
+    "revision": "6db9150ae31fca40e2e930d9a70189f3",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "34aed219f92765b873b3",
+    "revision": "77e5d832a2cb3c480726",
     "url": "/react-portfolio/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "9ba5e4c751246d7a1272",
+    "revision": "e45ea3f0fea495ce1282",
     "url": "/react-portfolio/static/css/main.1d5633e7.chunk.css"
   },
   {
-    "revision": "34aed219f92765b873b3",
-    "url": "/react-portfolio/static/js/2.ae13c376.chunk.js"
+    "revision": "77e5d832a2cb3c480726",
+    "url": "/react-portfolio/static/js/2.076d97f3.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-portfolio/static/js/2.ae13c376.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.076d97f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9ba5e4c751246d7a1272",
-    "url": "/react-portfolio/static/js/main.6fbe9955.chunk.js"
+    "revision": "e45ea3f0fea495ce1282",
+    "url": "/react-portfolio/static/js/main.18a027f2.chunk.js"
   },
   {
     "revision": "c37ef703e25eadd8948f",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cd65809680f74981bcf56f4f0aed2254",
     "url": "/react-portfolio/static/media/employee.cd658096.png"
+  },
+  {
+    "revision": "0d203d932590a9b6e7a7b8003fc7d259",
+    "url": "/react-portfolio/static/media/holidayPlanner.0d203d93.png"
   },
   {
     "revision": "f1afb58e69345b5a0958dd279bc2f594",
