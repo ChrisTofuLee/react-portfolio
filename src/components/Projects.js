@@ -9,7 +9,7 @@ const Projects = [
   {
     title: "Holiday Planner",
     description:
-      "The Lyricube app allows the user to search part of the lyrics that they remember to populate the most popular songs with the lyrics entered with a YouTube video for ease of use. The App uses the Genius API for the lyrics search functionality which then proceeds to call on the YouTube API for the relevant video to be attached alongside each search result.",
+      "The Holiday Planner app is a MERN full stack application that allows the user to search cities they're planning to visit to populate what there is to do there split out by activites, nightlife and food (which is populated through the Google Places API). The user will also be able to see more information about the places they find such as reviews, opening times, and direct to their current website, they can then add selected places to a plan they've created. They will also be able to review their plans, edit them, and also delete them.",
     tech: [
       { techName: "HTML", colour: "orange" },
       { techName: "MongoDB", colour: "volcano" },
@@ -17,6 +17,7 @@ const Projects = [
       { techName: "Axios", colour: "green" },
       { techName: "Tailwind CSS", colour: "cyan" },
       { techName: "React", colour: "geekblue" },
+      { techName: "React Springs", colour: "blue" },
       { techName: "NodeJS", colour: "purple" },
       { techName: "Express", colour: "grey" },
     ],
