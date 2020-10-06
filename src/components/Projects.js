@@ -4,7 +4,26 @@ import notePicture from "../assets/Notes.png";
 import EmployeePicture from "../assets/employee.png";
 import CLIPicture from "../assets/cli.png";
 import quizPicture from "../assets/quiz.png";
+import holidayPlanner from "../assets/holidayPlanner.png";
 const Projects = [
+  {
+    title: "Holiday Planner",
+    description:
+      "The Lyricube app allows the user to search part of the lyrics that they remember to populate the most popular songs with the lyrics entered with a YouTube video for ease of use. The App uses the Genius API for the lyrics search functionality which then proceeds to call on the YouTube API for the relevant video to be attached alongside each search result.",
+    tech: [
+      { techName: "HTML", colour: "orange" },
+      { techName: "MongoDB", colour: "volcano" },
+      { techName: "JS", colour: "gold" },
+      { techName: "Axios", colour: "green" },
+      { techName: "Tailwind CSS", colour: "cyan" },
+      { techName: "React", colour: "geekblue" },
+      { techName: "NodeJS", colour: "purple" },
+      { techName: "Express", colour: "grey" },
+    ],
+    link: "https://christofulee.github.io/holiday-planner-client/",
+    image: holidayPlanner,
+    repo: "https://github.com/ChrisTofuLee/holiday-planner-client",
+  },
   {
     title: "LyricWorks",
     description:
@@ -29,7 +48,7 @@ const Projects = [
       { techName: "HTML", colour: "orange" },
       { techName: "JS", colour: "gold" },
       { techName: "Axios", colour: "green" },
-      { techName: "Tailwind CSS", colour: "cyan" },
+      { techName: "Tailwind CSS", colour: "geekblue" },
       { techName: "Sequelize", colour: "blue" },
       { techName: "NodeJS", colour: "purple" },
     ],
