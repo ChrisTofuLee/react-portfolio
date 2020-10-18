@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.1d5633e7.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.070532f2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.070532f2.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.20c562a1.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.20c562a1.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.b61b73f6.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.b61b73f6.js.map",
     "static/css/2.847e01e0.chunk.css": "/react-portfolio/static/css/2.847e01e0.chunk.css",
-    "static/js/2.076d97f3.chunk.js": "/react-portfolio/static/js/2.076d97f3.chunk.js",
-    "static/js/2.076d97f3.chunk.js.map": "/react-portfolio/static/js/2.076d97f3.chunk.js.map",
+    "static/js/2.e0050cfa.chunk.js": "/react-portfolio/static/js/2.e0050cfa.chunk.js",
+    "static/js/2.e0050cfa.chunk.js.map": "/react-portfolio/static/js/2.e0050cfa.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.52972b998036a04057d5618116221510.js": "/react-portfolio/precache-manifest.52972b998036a04057d5618116221510.js",
+    "precache-manifest.6a25ea28a1752f2eea775393c68dddbd.js": "/react-portfolio/precache-manifest.6a25ea28a1752f2eea775393c68dddbd.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.847e01e0.chunk.css.map": "/react-portfolio/static/css/2.847e01e0.chunk.css.map",
     "static/css/main.1d5633e7.chunk.css.map": "/react-portfolio/static/css/main.1d5633e7.chunk.css.map",
-    "static/js/2.076d97f3.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.076d97f3.chunk.js.LICENSE.txt",
+    "static/js/2.e0050cfa.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e0050cfa.chunk.js.LICENSE.txt",
     "static/media/Notes.png": "/react-portfolio/static/media/Notes.f99563c6.png",
     "static/media/aniTracker.png": "/react-portfolio/static/media/aniTracker.6d29ab5d.png",
     "static/media/cli.png": "/react-portfolio/static/media/cli.bfb8aa8f.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.b61b73f6.js",
     "static/css/2.847e01e0.chunk.css",
-    "static/js/2.076d97f3.chunk.js",
+    "static/js/2.e0050cfa.chunk.js",
     "static/css/main.1d5633e7.chunk.css",
-    "static/js/main.070532f2.chunk.js"
+    "static/js/main.20c562a1.chunk.js"
   ]
 }
