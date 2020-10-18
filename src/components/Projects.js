@@ -9,7 +9,7 @@ const Projects = [
   {
     title: "Holiday Planner",
     description:
-      "The Holiday Planner app is a MERN full stack application that allows the user to search cities they're planning to visit to populate what there is to do there split out by activites, nightlife and food (which is populated through the Google Places API). The user will also be able to see more information about the places they find such as reviews, opening times, and direct to their current website, they can then add selected places to a plan they've created. They will also be able to review their plans, edit them, and also delete them.",
+      "The Holiday Planner app is a MERN full stack application that allows the user to search cities they're planning to visit to populate what there is to do there split out by activites, nightlife and food (which is populated through the Google Places API). The user will also be able to see more information about the places they find such as reviews, opening times, and direct to their current website, they can then add selected places to a plan they've created. The server side was deployed through Heroku which allows the user to perform CRUD operations on their plans, this was also where the calls to the GooglePlaces API were made and sorted to help reduce the loading within front end",
     tech: [
       { techName: "HTML", colour: "orange" },
       { techName: "MongoDB", colour: "volcano" },
