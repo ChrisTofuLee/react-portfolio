@@ -67,15 +67,16 @@ const About = () => {
           About Me
         </Title>
         <Paragraph style={{ fontSize: "1.6em", fontFamily: "Kumbh Sans" }}>
-          MY name is Chris Lee. I'm currently full stack coding bootcamp student
-          at the University of Manchester, learning front end to back end web
-          development from HTML and JavaScript to NodeJS and SQL.
+          MY name is Chris Lee. I've recently graduated from the full stack
+          coding bootcamp at the University of Manchester, learning front end to
+          back end web development from HTML and JavaScript to NodeJS and SQL.
         </Paragraph>
         <Paragraph style={{ fontSize: "1.6em", fontFamily: "Kumbh Sans" }}>
           From working in SEO, learning about both user experience and search
           engine guidelines, I started to gain interest in coding to help
           improve on websites as well as making my own. During my time in the
-          coding bootcamp, I have gained experience building and deploying
+          coding bootcamp, we simulate real world coding scenarios from TDD to
+          group work. Through this I've gained experience building and deploying
           websites from scratch as well as improving on existing projects. I
           enjoy working on websites from a user's perspective to improve on the
           user experience as well as figuring out how to improve on how the
@@ -83,7 +84,9 @@ const About = () => {
         </Paragraph>
         <Divider />
         <Paragraph style={{ fontSize: "1.6em", fontFamily: "Kumbh Sans" }}>
-          To learn more about my work and myself:
+          To learn more about the technologies I've learnt and worked with,
+          checkout my portfolio page to see the highlights of my work,for
+          further details about me and other projects checkout:
         </Paragraph>
 
         <div className="row d-flex justify-content-center" align="center">
