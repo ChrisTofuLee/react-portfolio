@@ -5,7 +5,7 @@ import purple from "../assets/purple.png";
 import "../App.css";
 import Projects from "./Projects";
 // import Title from "../../node_modules/antd/lib/typography/Title";
-import { Space, Layout, Menu, Card, Row, Divider, Col, Tag } from "antd";
+import { Space, Layout, Menu, Card, Row, Divider, Col, Tag, Badge } from "antd";
 import {
   UserOutlined,
   UploadOutlined,
@@ -15,6 +15,7 @@ import Title from "antd/lib/typography/Title";
 
 const { Header, Content, Footer } = Layout;
 const { SubMenu } = Menu;
+const { Meta } = Card;
 
 const IconText = ({ icon, text }) => (
   <Space>
@@ -27,6 +28,7 @@ const Portfolio = () => {
   // Setting component's initial state
   const [projects, setProjects] = useState(Projects);
   const [collapsed, setCollapsed] = useState(false);
+  const techSkills = ["Adobe Xd", "API’s", "Asana", "Command Line", "CSS Libraries", "CSS3", "Database Theory", "ES6+", "Express.js", "Git", "Handlebars", "HTML5", "Inquirer", "JavaScript", "jQuery", "MongoDB", "Mongoose", "MySQL", "Node.js", "React.js", "REST API", "TDD"]
 
   const onCollapse = (collapsed) => {
     console.log(collapsed);
@@ -62,12 +64,26 @@ const Portfolio = () => {
             width: "100%",
             fontSize: "3em",
             fontFamily: "Kumbh Sans",
-            padding: "80px",
+            padding: "80px 80px 40px",
             
           }}
         >
           Projects
         </Title>
+        <Row className="container" style={{marginBottom: "50px",}}>
+          <Col style={{marginRight: "80px", marginLeft: "80px"}}>
+          <Title level={3}>
+            Technical Skills:
+          </Title>
+          <Divider />
+          <h4>
+          {techSkills.map((skill) => {
+            return (
+            <span class="badge badge-secondary" style={{backgroundColor: "rgb(171,151,210)", marginRight: "10px", marginBottom: "15px"}}>{skill}</span>)
+          })}
+          </h4>
+          </Col>
+        </Row>
         {projects.map((project) => {
           return (
             <Row style={{ marginBottom: "20px" }}>
@@ -96,7 +112,7 @@ const Portfolio = () => {
                   })}
                 </Card>
               </Col>
-              <Col flex={"40%"} style={{ alignItems: "center" }}>
+              <Col flex={"40%"} style={{ alignSelf: "center", height: "auto" }}>
                 <img
                   alt="example"
                   src={project.image}
